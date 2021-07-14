@@ -266,7 +266,7 @@
 
             $sesionCurl = curl_init();
 
-            curl_setopt($sesionCurl,CURLOPT_URL,'http://localhost/ceerr.php/etiquetas/registros');
+            curl_setopt($sesionCurl,CURLOPT_URL,'http://localhost/etiquetas/registros');
 
             curl_setopt($sesionCurl,CURLOPT_RETURNTRANSFER,true);
 
@@ -284,7 +284,7 @@
             
             $sesionCurl = curl_init();
 
-            curl_setopt($sesionCurl,CURLOPT_URL,'http://localhost/ceerr.php/atributos/registros');
+            curl_setopt($sesionCurl,CURLOPT_URL,'http://localhost/atributos/registros');
 
             curl_setopt($sesionCurl,CURLOPT_RETURNTRANSFER,true);
 

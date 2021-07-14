@@ -7,7 +7,10 @@ html([
         title('Piezas')
     ],
     'body' => [
-        h1('WELCOME I AM RAMIRO_PHP')
+        h1('WELCOME I AM RAMIRO_PHP'),
+        _ul([
+            a('Slideshow',['href' => './Paginas/Slideshow.php'])
+        ])
     ]
 ],[
     'html' => ['lang' => 'en'],

@@ -532,3 +532,19 @@ function ul ($in = null,array $set = [],$on = true) {
     $ul = new Html('oc','ul',$in,$set,false,$on);
     return $ul->element();
 }
+
+function li ($in = null,array $set = [],$on = true) {
+    $li = new Html('oc','li',$in,$set,false,$on);
+    return $li->element();
+}
+
+function _ul (array $in = [],array $set = [],$on = true) {
+    $li_items = [];
+    for($i = 0; $i < count($in); $i++) {
+
+        array_push($li_items, li($in[$i]));
+
+    }
+    $ul = new Html('oc','ul',$li_items,$set,false,$on);
+    return $ul->element();
+}

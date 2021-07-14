@@ -7,7 +7,7 @@ return [
         div([
             div('1 / 3',['class' => 'numbertext']),
             img([
-                'src' => './Etiquetas/Piezas/Slideshow/imagenes/imagen1.jpg',
+                'src' => '../Etiquetas/Piezas/Slideshow/imagenes/imagen1.jpg',
                 'style' => 'width:100%'
             ]),
             div('Caption Text',['class' => 'text'])
@@ -16,7 +16,7 @@ return [
         div([
             div('2 / 3',['class' => 'numbertext']),
             img([
-                'src' => './Etiquetas/Piezas/Slideshow/imagenes/imagen2.jpg',
+                'src' => '../Etiquetas/Piezas/Slideshow/imagenes/imagen2.jpg',
                 'style' => 'width:100%'
             ]),
             div('Caption Text',['class' => 'text'])
@@ -25,7 +25,7 @@ return [
         div([
             div('3 / 3',['class' => 'numbertext']),
             img([
-                'src' => './Etiquetas/Piezas/Slideshow/imagenes/imagen3.jpg',
+                'src' => '../Etiquetas/Piezas/Slideshow/imagenes/imagen3.jpg',
                 'style' => 'width:100%'
             ]),
             div('Caption Text',['class' => 'text'])

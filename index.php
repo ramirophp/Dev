@@ -9,7 +9,10 @@ html([
     'body' => [
         h1('WELCOME I AM RAMIRO_PHP'),
         _ul([
-            a('Slideshow',['href' => './Paginas/Slideshow.php'])
+            a('Slideshow',['href' => './Paginas/Slideshow.php']),
+            a('Extension',['href' => './Paginas/Extension.php']),
+            a('Counter',['href' => './Paginas/Counter.php']),
+            a('BlackJack',['href' => './Paginas/BlackJack.php'])
         ])
     ]
 ],[

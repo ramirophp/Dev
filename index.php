@@ -12,7 +12,8 @@ html([
             a('Slideshow',['href' => './Paginas/Slideshow.php']),
             a('Extension',['href' => './Paginas/Extension.php']),
             a('Counter',['href' => './Paginas/Counter.php']),
-            a('BlackJack',['href' => './Paginas/BlackJack.php'])
+            a('BlackJack',['href' => './Paginas/BlackJack.php']),
+            a('Back',['href' => 'http://localhost'])
         ])
     ]
 ],[

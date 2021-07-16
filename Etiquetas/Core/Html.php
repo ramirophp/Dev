@@ -266,7 +266,10 @@
 
             $sesionCurl = curl_init();
 
-            curl_setopt($sesionCurl,CURLOPT_URL,'http://localhost/etiquetas/registros');
+            //local
+            curl_setopt($sesionCurl,CURLOPT_URL,'http://localhost/Api/etiquetas/registros');
+            //remote
+            #curl_setopt($sesionCurl,CURLOPT_URL,'https://api.piezas.xyz/etiquetas/registros');
 
             curl_setopt($sesionCurl,CURLOPT_RETURNTRANSFER,true);
 
@@ -284,7 +287,10 @@
             
             $sesionCurl = curl_init();
 
-            curl_setopt($sesionCurl,CURLOPT_URL,'http://localhost/atributos/registros');
+            //local
+            curl_setopt($sesionCurl,CURLOPT_URL,'http://localhost/Api/atributos/registros');
+            //remote
+            #curl_setopt($sesionCurl,CURLOPT_URL,'https://api.piezas.xyz/atributos/registros');
 
             curl_setopt($sesionCurl,CURLOPT_RETURNTRANSFER,true);
 
